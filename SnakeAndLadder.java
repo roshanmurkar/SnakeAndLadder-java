@@ -8,7 +8,11 @@ public class SnakeAndLadder {
 		double endPosition=100;
 		GameOperations startGame = new GameOperations(startPosition);
 		
-		startGame.rollDie();
+		startGame.rollDie(); //go to roll dice fun
+		
+		startGame.nextMove(); //go to move fun
+	
 	}
+	
 
 }
